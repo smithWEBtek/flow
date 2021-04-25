@@ -1,0 +1,27 @@
+{
+  "name": "my-project",
+  "main": "lib/index.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithWEBtek/flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smithWEBtek/flow/issues"
+  },
+  "homepage": "https://github.com/smithWEBtek/flow#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-flow": "^7.13.13",
+    "flow-bin": "^0.149.0"
+  }
+}
